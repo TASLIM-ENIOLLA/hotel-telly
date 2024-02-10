@@ -30,6 +30,7 @@ export default function Component({ roomTypes }: ComponentProps) {
 
     return getMinDate();
   }, [timeCounter, formData?.checkInDate]);
+  
   const checkOutMinDate: string = useMemo(() => {
     const { checkInDate, checkOutDate } = formData;
 

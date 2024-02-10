@@ -30,11 +30,11 @@ export default function Component({ value, durationMs = 3000 }: ComponentProps) 
     });
   };
   
-  const observer = new IntersectionObserver(callback, options);
-
   const [counter, setCounter] = useState <number> (0);
   
   useEffect(() => {
+    const observer = new IntersectionObserver(callback, options);
+    
     observer.observe(targetElement.current);
 
     return () => {

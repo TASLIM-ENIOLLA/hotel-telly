@@ -13,7 +13,7 @@ export default function Page() {
               contact us
             </div>
             <div className="text-slate-900 text-sm md:text-base font-light tracking-wider">
-              Leave us a message, we'll certainly reply
+              Leave us a message, we&apos;ll certainly reply
             </div>
           </div>
         </div>
