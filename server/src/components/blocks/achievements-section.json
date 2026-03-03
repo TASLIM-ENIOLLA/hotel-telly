@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_achievements_sections",
+  "info": {
+    "displayName": "Achievements Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "achievements": {
+      "type": "component",
+      "component": "element.card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

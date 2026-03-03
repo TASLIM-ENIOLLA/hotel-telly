@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_rooms_sections",
+  "info": {
+    "displayName": "Rooms Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "roomCards": {
+      "type": "component",
+      "component": "element.room-card",
+      "repeatable": true
+    },
+    "cta": {
+      "type": "component",
+      "component": "element.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_element_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "leftIconName": {
+      "type": "string"
+    },
+    "rightIconName": {
+      "type": "string"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "xs",
+        "sm",
+        "lg",
+        "null"
+      ]
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "ghost",
+        "outline",
+        "destructive",
+        "secondary"
+      ]
+    },
+    "svg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "headerSection": {
+      "type": "component",
+      "component": "layout.header",
+      "repeatable": false
+    },
+    "heroSection": {
+      "type": "component",
+      "component": "blocks.hero-section",
+      "repeatable": false
+    },
+    "welcomeSection": {
+      "type": "component",
+      "component": "blocks.welcome-section",
+      "repeatable": false
+    },
+    "offersSection": {
+      "type": "component",
+      "component": "blocks.offers-section",
+      "repeatable": false
+    },
+    "achievementsSections": {
+      "type": "component",
+      "component": "blocks.achievements-section",
+      "repeatable": false
+    },
+    "roomsSection": {
+      "type": "component",
+      "component": "blocks.rooms-section",
+      "repeatable": false
+    },
+    "testimonialsSection": {
+      "type": "component",
+      "component": "blocks.testimonials-section",
+      "repeatable": false
+    },
+    "mediaSection": {
+      "type": "component",
+      "component": "blocks.media-section",
+      "repeatable": false
+    },
+    "contactSection": {
+      "type": "component",
+      "component": "blocks.contact-section",
+      "repeatable": false
+    },
+    "newsletterSection": {
+      "type": "component",
+      "component": "blocks.newsletter-section",
+      "repeatable": false
+    }
+  }
+}

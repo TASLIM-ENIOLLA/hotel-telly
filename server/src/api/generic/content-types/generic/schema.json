@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "generics",
+  "info": {
+    "singularName": "generic",
+    "pluralName": "generics",
+    "displayName": "Generic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "header": {
+      "type": "component",
+      "component": "layout.header",
+      "repeatable": false
+    }
+  }
+}

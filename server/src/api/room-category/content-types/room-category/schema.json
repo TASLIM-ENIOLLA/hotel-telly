@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "room_categories",
+  "info": {
+    "singularName": "room-category",
+    "pluralName": "room-categories",
+    "displayName": "Room Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "room_services": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::room-service.room-service"
+    },
+    "code": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}

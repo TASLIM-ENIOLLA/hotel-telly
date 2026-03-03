@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "Room"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true,
+      "default": 0
+    },
+    "size": {
+      "type": "string"
+    },
+    "cap": {
+      "type": "integer",
+      "required": true,
+      "default": 2,
+      "min": 1,
+      "max": 3
+    },
+    "bed": {
+      "type": "enumeration",
+      "required": true,
+      "default": "normal bed",
+      "enum": [
+        "normal bed",
+        "king-sized bed",
+        "queen-sized bed",
+        "orthopedic bed"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "room_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::room-category.room-category"
+    }
+  }
+}

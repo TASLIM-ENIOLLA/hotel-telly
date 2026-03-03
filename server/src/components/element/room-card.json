@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_element_room_cards",
+  "info": {
+    "displayName": "Room Card"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

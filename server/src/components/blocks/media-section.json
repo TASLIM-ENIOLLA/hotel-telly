@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_media_sections",
+  "info": {
+    "displayName": "Media Section"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

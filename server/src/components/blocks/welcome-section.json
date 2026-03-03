@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_welcome_sections",
+  "info": {
+    "displayName": "Welcome Section"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "component": "element.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
